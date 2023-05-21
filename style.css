@@ -26,8 +26,22 @@ header > p{
     text-align: center;
 }
 
-menu{
+span#burguer{
+    background-color: rgba(0, 0, 0, 0.308);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+menu{
+    display: none;
 }
 
 menu > ul {
@@ -45,13 +59,15 @@ menu > ul > li > a{
 
 menu a:hover{
     background-color: #697079;
+    transition-duration: 0.5s;
 }
 
 main{
     background-color: #5C6672;
     margin: auto;
-    width: 90vw;
+    width: 70%;
     padding: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 main h1{
@@ -70,4 +86,13 @@ img{
     display: block;
     margin: auto;
     width: 70%;
+}
+
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #212730;
+    color: gray;
+    padding: 15px;
 }
